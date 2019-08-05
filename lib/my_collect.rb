@@ -3,7 +3,7 @@ def my_collect(argument)
   collection = []
   while counter < argument.length do
       collection << yield(argument[counter])
-      i += 1
+      counter += 1
     end
     collection
 end
